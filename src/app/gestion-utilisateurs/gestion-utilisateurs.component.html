@@ -1,0 +1,39 @@
+<h2>{{'gestion-utilisateurs.title' | translate }}</h2>
+
+<div *ngIf="enregistrementReussiMessage">{{ enregistrementReussiMessage }}</div>
+
+<div *ngIf="utilisateurs.length > 0">
+ 
+  <table>
+    <thead>
+      <tr>
+        <th>Avatar</th>
+        <th>{{'gestion-utilisateurs.id' | translate }}</th>
+        <th>{{'gestion-utilisateurs.first_name' | translate }}</th>
+        <th>{{'gestion-utilisateurs.email' | translate }}</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let utilisateur of utilisateurs; let i = index" [class.even]="i % 2 === 0" [class.odd]="i % 2 !== 0">
+        <td>
+          <img [src]="utilisateur.avatar" alt="Avatar" width="50" height="50">
+        </td>
+        <td>{{ utilisateur.id }}</td>
+        <td>{{ utilisateur.first_name }} {{ utilisateur.last_name }}</td>
+        <td>{{ utilisateur.email }}</td>
+        <td>
+          <button (click)="utilisateur.isActionVisible = !utilisateur.isActionVisible">Choisir</button>
+         <br>
+         <br>
+          <div *ngIf="utilisateur.isActionVisible">
+            <button (click)="supprimerUtilisateur(utilisateur)">Supprimer</button>
+            <br>
+            <button (click)="mettreAJourUtilisateur(utilisateur)">Mettre à jour</button>
+          </div>
+        </td>
+        
+      </tr>
+    </tbody>
+  </table>
+</div>

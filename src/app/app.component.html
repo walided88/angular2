@@ -1,0 +1,16 @@
+
+<div class="vertical-container">
+  <div class="vertical-menu">
+    <ul>
+      <li><a href="#">{{'user-form.home' | translate }}</a></li>
+      <li><a routerLink="/gestion-utilisateurs">{{'user-form.manager' | translate }}</a></li>
+      <li><a routerLink="/user-form">{{'user-form.add' | translate}}</a></li>
+    </ul>
+  </div>
+
+  
+
+  <div class="vertical-content">
+    <app-header></app-header>
+    <router-outlet></router-outlet>
+  </div>

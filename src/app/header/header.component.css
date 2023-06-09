@@ -1,0 +1,34 @@
+.header {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  background-color: #a5a5a5;
+  margin-right: -9px;
+
+}
+
+
+.logo {
+  width: 40px; 
+  height: auto;
+}
+
+.title {
+  margin: 10px auto;
+  font-size: 45px;
+  text-align: center;
+  
+}
+
+
+
+.select {
+  margin-left: auto;
+  margin-right: -12px;
+
+}
+
+.horizontal-container {
+  margin-left: auto;
+  margin-right: -7x;
+}

@@ -1,0 +1,76 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+  }
+
+  .gif-loading {
+    height: 35px;
+}
+  
+  thead {
+    background-color: #f2f2f2;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #e6e6e6;
+  }
+  
+  tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+  }
+  
+  button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 4px 8px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #c82333;
+  }
+
+  .custom-select {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .custom-select button {
+    padding: 8px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+  
+  .select-options {
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 0;
+    background-color: #f9f9f9;
+    display: none;
+    border: 1px solid #ccc;
+  }
+  
+  .select-options.active {
+    display: block;
+  }
+  
+  .select-options button {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    cursor: pointer;
+  }
+  
+  .select-options button:hover {
+    background-color: #e5e5e5;
+  }
+  
+  

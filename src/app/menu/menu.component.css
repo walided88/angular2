@@ -1,0 +1,24 @@
+.vertical-container {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  height: 100vh;
+}
+
+.vertical-menu {
+  background-color: #f1f1f1;
+  margin-top: 235px;
+
+}
+
+
+
+.vertical-menu li {
+  margin-bottom: 10px;
+}
+
+.vertical-menu a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #000;
+}

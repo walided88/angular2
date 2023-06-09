@@ -1,0 +1,37 @@
+{
+
+  "accueil":{
+    "welcome":"Welcome to my website !"
+  },
+  "add-user":{
+    "job": "Job",
+    "first_name": "First Name",
+    "last-name": "Last Name",
+    "submit": "submit",
+
+    "email": "Mail Adress",
+    "num": "Phone Number"
+
+  },
+  "gestion-utilisateurs":{
+    "id": "ID",
+    "job": "job",
+    "first_name": "Name",
+
+    "email": "email",
+    "title":"User List"
+  },
+  "header":{
+    "title":"Angular Training"
+  },
+  "user-form":{
+    "add":"Add User",
+    "manager":"User manager",
+
+    "home":"home"
+
+  }
+  
+
+  }
+  

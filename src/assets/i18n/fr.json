@@ -1,0 +1,36 @@
+{
+
+  "accueil":{
+    "welcome":"Bienvenue dans mon site!"
+  },
+  "add-user":{
+    "job": "job",
+    "first_name": "Nom",
+    "last-name": "Prenom",
+    "submit": "Enregistrer",
+
+    "email": "Adresse électronique",
+    "num": "Numero de telephone"
+  },
+  "gestion-utilisateurs":{
+    "id": "ID",
+    "job": "travail",
+    "first_name": "Nom",
+
+    "email": "Adresse électronique",
+    "title":"Liste d'utilisateurs"
+
+  },
+  "header":{
+    "title":"Entrainement Angular"
+    },
+  "user-form":{
+    "add":"Ajouter un Utilisateur",
+    "manager":"Gestion Utilisateurs",
+
+    "home":"Acceuil"
+
+
+  }
+  }
+  
